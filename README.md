@@ -1,6 +1,6 @@
 # 论文笔记：持续对比强化学习(Continual Contrastive Reinforcement Learning, CCRL)
 
-> **Environment-aware fault diagnosis of aero-engines under highly imbalance scenarios.**
+> **Environment-aware fault diagnosis of aero-engines under highly imbalance scenarios**
 > 
 > **Paper Title**: Continual contrastive reinforcement learning: Towards stronger agent for environment-aware fault diagnosis of aero-engines through long-term optimization under highly imbalance scenarios
 > 
@@ -36,7 +36,7 @@
 2.  **环境动态变化**：飞机的飞行环境、气候条件以及发动机自身的老化程度都在不断变化。一个在特定数据集上训练好的静态模型，很难适应未来的新情况。
 3.  **数据持续增长**：航空公司每天都会产生大量的飞行数据，传统方法难以利用这些新数据对模型进行实时更新。
 
-为了解决上述问题，本论文提出了一种名为 **CCRL (Continual Contrastive Reinforcement Learning，持续对比强化学习)** 的方法。该方法旨在构建一个能够像人类专家一样，在长期的环境交互中不断学习、适应新数据且能处理样本不平衡的智能体。
+为了解决上述问题，论文提出了一种名为 **CCRL (Continual Contrastive Reinforcement Learning，持续对比强化学习)** 的方法。该方法旨在构建一个能够像人类专家一样，在长期的环境交互中不断学习、适应新数据且能处理样本不平衡的智能体。
 
 ## 2. 核心思路
 
@@ -94,7 +94,7 @@ CCRL框架主要由三个部分组成：环境构建、特征区分模块和类�
 
 ## 5. 总结
 
-本研究提出的CCRL方法，通过结合对比学习对特征的提取能力和强化学习的持续决策能力，有效地解决了航空发动机故障诊断中**数据不平衡**和**环境动态变化**的难题。它不需要凭空生成虚拟数据（如GAN），而是充分挖掘现有数据的价值，为工业界在小样本条件下的设备维护提供了一种新的解决思路。
+论文提出的CCRL方法，通过结合对比学习对特征的提取能力和强化学习的持续决策能力，有效地解决了航空发动机故障诊断中**数据不平衡**和**环境动态变化**的难题。它不需要凭空生成虚拟数据（如GAN），而是充分挖掘现有数据的价值，为工业界在小样本条件下的设备维护提供了一种新的解决思路。
 
 ---
 
